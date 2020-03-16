@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html body{
+width: 100%;
+overflow-x:hidden;
+
+}
+body{
+	
+  font-family: Helvetica, sans-serif;
+  background: #BDBDBD;
+	
+}
+
+.transparente{
+	background: #424242;
+}
+
+.transparente ul{
+	font-size: 25px;
+
+}
+
+.transparente ul li a{
+	color: white;
+}
+
+.transparente ul li a:hover{
+	color: purple;
+}
+
+#butao{
+	margin-top: 150px;
+	text-align: center;
+	color: white;
+
+
+}
+
+#butao h1{
+	font-size: 100px;
+	font-weight: 900;
+	
+}
+
+#butao h2{
+	font-size: 20px;
+	
+}
+
+.butoes{
+	text-align: center;
+	margin-left: 550px;
+	height: 50px;
+	width: 220px;
+	background: #BF00FF;
+	border: none;
+	border-radius: 6px;
+}
+
+.butoes a{
+	text-decoration: none;
+	color: white;
+}
+
+.butoes a:hover{
+	color:  black;
+}
+
+.butoes:hover{
+	background: #8A0886;
+}
+
+
+#rodape{
+	background: #D8D8D8;
+}
+
+#rodape h5{
+ 
+}
+
+#rodape p{
+	color: white;
+}
+
+
+#sobre-fotografo{
+	background: #BDBDBD;
+	
+	margin-top: 100px;
+	
+
+}
+
+#sobre-fotografo h4{
+	font-weight: 900;
+}
+
+#sobre-fotografo h5{
+	font-weight: 900;
+}
+
+.btn-trabalho{
+	background: #F781D8;
+	border:none;
+	border-radius: 3px;
+	margin-left: 20px;
+	width: 220px;
+	height: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-trabalho:hover{
+	background: #FE2E9A;
+	color: black;
+
+}
+.p-texto{
+	font-size: 14px;
+}
+
+.t-imagem{
+	height: 200px;
+	
+}
+
+.contato{
+	margin-top: 150px;
+	text-align: center;
+}
+.contato h4{
+	font-weight: 900;
+}
+
+.contato p{
+	font-size: 14px;
+	max-width: 55%;
+	margin-left: 250px;
+}
+
+.informacoes{
+	text-align: center;
+	
+}
+
+.informacoes h5{
+	font-weight: 700;
+}
+
+.informacoes{
+	text-align: center;
+	max-width: 55%;
+	margin-left: 250px;
+	
+}
+
+.formulario{
+	text-align: center;
+	background: linear-gradient(#A4A4A4, #424242);
+}
+
+.formulario h3{
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.formulario label{
+	color: white; 
+}
+
+.formulario input{
+	width: 250px;
+	height: 60px;
+	border-radius: 10px;
+}
+
+textarea{
+	width: 550px;
+	height: 60px;
+}
+
+.anime{
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .3s;
+}
+
+.anime-start{
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}

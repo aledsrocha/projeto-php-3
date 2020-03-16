@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html body{
+width: 100%;
+
+}
+body{
+	background: url(../img/back3.jpg) no-repeat ;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, sans-serif;
+	
+}
+
+.transparente{
+	opacity: 0.5;
+}
+
+.transparente ul{
+	font-size: 25px;
+
+}
+
+.transparente ul li a{
+	color: white;
+}
+
+.transparente ul li a:hover{
+	color: purple;
+}
+
+#butao{
+	margin-top: 150px;
+	text-align: center;
+	color: white;
+
+
+}
+
+#butao h1{
+	font-size: 100px;
+	
+	
+}
+
+#butao h2{
+	font-size: 20px;
+	
+}
+
+.butoes{
+	text-align: center;
+	margin-left: 550px;
+	height: 50px;
+	width: 220px;
+	background: #BF00FF;
+	border: none;
+	border-radius: 6px;
+}
+
+.butoes a{
+	text-decoration: none;
+	color: white;
+}
+
+.butoes a:hover{
+	color:  black;
+}
+
+.butoes:hover{
+	background: #8A0886;
+}
+
+
+#rodape{
+	background: #D8D8D8;
+}
+
+#rodape h5{
+ text-shadow: 5px 5px 5px black;
+}
+
+#rodape p{
+	color: white;
+}
+
+#sobre-fotografo{
+	background: white;
+	margin-top: 350px;
+}
+
+#sobre-fotografo{
+	font-family: Helvetica, sans-serif;
+}
+
+.p-texto{
+	font-size: 14px;
+}
+
+
+
+	
+
